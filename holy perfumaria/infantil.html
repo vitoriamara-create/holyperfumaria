@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfumes Infantis | Holy Perfumaria</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #3b3838;
+      color: rgb(255, 253, 241);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: gold;
+    }
+    .carrinho-icon {
+      cursor: pointer;
+      font-size: 22px;
+      color: gold;
+    }
+    .titulo {
+      background: linear-gradient(90deg, #3b3b3b, #B8860B);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 26px;
+      font-weight: bold;
+      font-family: 'Playfair Display', serif;
+      letter-spacing: 1px;
+    }
+    .produtos {
+      padding: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      background-color: #fff;
+    }
+    .produto {
+      background: #fdfdfd;
+      padding: 15px;
+      border: 2px solid rgb(102, 96, 96);
+      width: 200px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .produto:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+    .produto img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .produto h4 {
+      margin: 10px 0 5px;
+    }
+    .produto button {
+      background: #B8860B;
+      border: none;
+      padding: 8px 10px;
+      color: black;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>HOLY PERFUMARIA</strong></div>
+    <nav>
+      <a href="index.html">INÍCIO</a>
+      <a href="masculino.html">MASCULINO</a>
+      <a href="feminino.html">FEMININO</a>
+      <a href="infantil.html">INFANTIL</a>
+    </nav>
+    <div class="carrinho-icon"><i class="fas fa-shopping-cart"></i></div>
+  </header>
+
+  <div class="titulo">PERFUMES INFANTIS</div>
+
+  <section class="produtos">
+    <div class="produto"><img src="kit1.jpg"><h4>Kit Infantil 1</h4><p>R$ 110,00</p><button>Adicionar</button></div>
+    <div class="produto"><img src="kit2.jpg"><h4>Kit Infantil 2</h4><p>R$ 125,00</p><button>Adicionar</button></div>
+    <div class="produto"><img src="kit3.jpg"><h4>Kit Infantil 3</h4><p>R$ 99,00</p><button>Adicionar</button></div>
+    <div class="produto"><img src="kit4.jpg"><h4>Kit Infantil 4</h4><p>R$ 130,00</p><button>Adicionar</button></div>
+    <div class="produto"><img src="kit5.jpg"><h4>Kit Infantil 5</h4><p>R$ 149,00</p><button>Adicionar</button></div>
+  </section>
+</body>
+</html>
